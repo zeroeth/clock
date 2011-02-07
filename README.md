@@ -13,7 +13,7 @@ Requirements
 
 * Bundler
 * Ruby-OpenGL
-* Chingu & Gosu
+* Gosu
 
 Installation
 ------------

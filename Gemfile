@@ -1,2 +1,3 @@
 source "http://rubygems.org"
-gem 'chingu'
+gem 'shoulda'
+gem 'gosu'
