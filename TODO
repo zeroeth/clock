@@ -1,0 +1,22 @@
+Hand Animation Class
+ - smooth
+ - instant
+ - spring (instant + little jiggle animation)
+ - seasaw (linear, log)
+
+Subclass Second/Hour/Minute/MS
+
+
+input rasterizers
+- rsvg
+- wkhtml2pdf
+- baitik
+- ghostscript
+- imagemagic
+- cairo
+
+Gemfile
+docs
+tests
+rake file
+
