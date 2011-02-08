@@ -33,3 +33,5 @@ Usage
 -----
 
     ruby clock_app.rb
+
+press 'q' to quit and 'left arrow' to randomly switch clock faces
