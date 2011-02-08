@@ -1,0 +1,7 @@
+name: moving_numbers
+hands:
+- back
+- hour
+- minute
+- msec
+- face

@@ -7,6 +7,9 @@ end
 class MeridianHand < Hand
 end
 
+class FaceHand < Hand
+end
+
 class MsecHand < Hand
   def set_angle
     self.angle  = (360.0/1000) * (time.usec/1000.0)

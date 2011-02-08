@@ -30,6 +30,15 @@ class GameWindow < Gosu::Window
     hands.each(&:set_angle)
   end
 
+  def button_down(id)
+    case id
+    when Gosu::KbQ
+      exit
+    when Gosu::KbLeft
+      self.hands = skins.skins[rand(skins.skins.size)].hands
+    end
+  end
+
   def set_time
     self.time = Time.now
   end
