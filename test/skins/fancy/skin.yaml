@@ -1,0 +1,8 @@
+name: fancy
+hands:
+- back
+- meridian
+- hour
+- minute
+- second
+- msec

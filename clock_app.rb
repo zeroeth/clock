@@ -18,8 +18,9 @@ class GameWindow < Gosu::Window
   def initialize
     super(640, 640, false)
     self.caption = "cl0ck"
-
+    $window = self
     self.skins = ClockSkins.new
+    skins.load
     self.hands = skins.by_name("color_rings").hands
   end
 

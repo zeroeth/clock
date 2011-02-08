@@ -1,7 +1,13 @@
 require 'gosu'
 require 'clock_hand'
 
-class MilliHand < Hand
+class BackHand < Hand
+end
+
+class MeridianHand < Hand
+end
+
+class MsecHand < Hand
   def set_angle
     self.angle  = (360.0/1000) * (time.usec/1000.0)
   end

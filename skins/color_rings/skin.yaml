@@ -1,0 +1,8 @@
+name: color_rings
+hands:
+- back
+- meridian
+- hour
+- minute
+- second
+- msec
