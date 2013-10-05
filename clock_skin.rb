@@ -1,4 +1,4 @@
-require 'clock_hands'
+require './clock_hands'
 
 class ClockSkin
   attr_accessor :name, :hands

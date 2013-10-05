@@ -1,5 +1,5 @@
 require 'yaml'
-require 'clock_skin'
+require './clock_skin'
 
 class ClockSkins
   attr_accessor :skins, :skin_hash

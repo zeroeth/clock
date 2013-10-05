@@ -9,8 +9,8 @@
 require 'rubygems'
 require 'bundler/setup'
 require 'gosu'
-require 'clock_hands'
-require 'clock_skins'
+require './clock_hands'
+require './clock_skins'
 
 class GameWindow < Gosu::Window
   attr_accessor :hands, :time, :skins

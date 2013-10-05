@@ -1,5 +1,5 @@
 require 'gosu'
-require 'clock_hand'
+require './clock_hand'
 
 class BackHand < Hand
 end
